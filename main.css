@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    color: aliceblue;
+    background-color: #343434
+}
+
+a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: deeppink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navilink {
+    font-size: 200%;
+}
+
+.header {
+    padding: 60px;
+    overflow: hidden;
+    background: #ff083e;
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00F7C1;
+    color: black;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
