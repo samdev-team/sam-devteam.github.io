@@ -29,6 +29,12 @@ a:active {
     text-decoration: underline;
 }
 
+img {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
 .navilink {
     font-size: 200%;
 }
@@ -57,4 +63,11 @@ a:active {
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+.links {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    font-size: 150%;
 }
