@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
     color: aliceblue;
-    background-color: #343434
+    background-color: #343434;
+    padding-bottom: 20px;
 }
 
 a:link {
