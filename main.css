@@ -5,6 +5,7 @@ body {
     padding-bottom: 20px;
 }
 
+
 a:link {
     color: pink;
     background-color: transparent;
@@ -38,6 +39,7 @@ img {
 
 .navilink {
     font-size: 200%;
+    padding: 10px;
 }
 
 .header {
