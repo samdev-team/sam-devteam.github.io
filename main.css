@@ -5,6 +5,51 @@ body {
     padding-bottom: 20px;
 }
 
+img {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+
+.navilink {
+    font-size: 4vh;
+    padding: 10px;
+}
+
+.links {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    font-size: 2.8vh;
+}
+
+.header {
+    overflow: hidden;
+    background: #ff083e;
+    color: white;
+    padding: 15px 30px 15px 15px;
+    font-size: 2.4vw;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00F7C1;
+    color: black;
+    text-align: center;
+    font-size: 1.7vh;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
 
 a:link {
     color: pink;
@@ -29,48 +74,4 @@ a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-}
-
-img {
-    width: 20%;
-    height: 20%;
-    object-fit: contain;
-}
-
-.navilink {
-    font-size: 200%;
-    padding: 10px;
-}
-
-.header {
-    overflow: hidden;
-    background: #ff083e;
-    color: white;
-    padding: 15px 30px 15px 15px;
-    font-size: 30px;
-}
-
-.footer {
-    position: fixed;
-    padding: 10px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #00F7C1;
-    color: black;
-    text-align: center;
-}
-
-.center {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-.links {
-    display: inline-block;
-    vertical-align: top;
-    padding: 15px;
-    font-size: 150%;
 }
