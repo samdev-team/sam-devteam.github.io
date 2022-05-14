@@ -11,9 +11,19 @@ let redirects = {
 function getCodeMeta() {
     let metadata = redirects[code]
     if (!metadata) return;
-    document.getElementById("title").content = metadata["og"]["title"]
-    document.getElementById("image").content = metadata["og"]["image"]
-    document.getElementById("url").content = "0; url='" + window.location.hostname + metadata["location"] + "'"
+    let og_title = document.createElement('meta');
+    let og_image = document.createElement("meta")
+    let redirect = document.createElement("meta")
+    og_title.property="og:title"
+    og_title.content=metadata["og"]["title"]
+    og_image.property="og:image"
+    og_image.content=metadata["og"]["image"]
+    redirect.httpEquiv="Refresh"
+    redirect.content = "0; url='" + window.location.origin + metadata["location"] + "'"
+
+    document.getElementsByTagName('head')[0].appendChild(og_title);
+    document.getElementsByTagName('head')[0].appendChild(og_image);
+    document.getElementsByTagName('head')[0].appendChild(redirect);
 }
 
 const queryString = window.location.search;
@@ -21,5 +31,6 @@ console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 
 let code = urlParams.get("c")
+console.log(window.location)
 getCodeMeta()
 
