@@ -6,8 +6,8 @@ body {
 }
 
 img {
-    width: 20%;
-    height: 20%;
+    width: 18vw;
+    height: 18vw;
     object-fit: contain;
 }
 
@@ -41,7 +41,7 @@ img {
     background-color: #00F7C1;
     color: black;
     text-align: center;
-    font-size: 1.7vh;
+    font-size: calc(1.1vh + 0.4vw);
 }
 
 .center {
