@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirection</title>
+    <link rel="stylesheet" href="/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Blockbuster206's Music | Jake's Dogs"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image"
+          content="https://sam-devteam.github.io/personal/music/songs/unknown.png"/>
+</head>
+<body>
+<script type="text/javascript">
+    let redirect = document.createElement('meta');
+    redirect.httpEquiv = "Refresh";
+    redirect.content = "0; url='" + window.location.origin + "/personal/music/songs/jakes-dogs'";
+    document.getElementsByTagName('head')[0].appendChild(redirect);
+</script>
+</body>
+</html>
