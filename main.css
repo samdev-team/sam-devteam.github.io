@@ -6,8 +6,8 @@ body {
 }
 
 img {
-    width: 26vw;
-    height: 26vw;
+    width: 20vw;
+    height: 20vw;
     object-fit: contain;
 }
 
@@ -29,7 +29,7 @@ img {
     background: #ff083e;
     color: white;
     padding: 15px 30px 15px 15px;
-    font-size: 2.4vw;
+    font-size: 1.7vw;
 }
 
 .footer {
