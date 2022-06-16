@@ -21,7 +21,7 @@ img {
     display: inline-block;
     vertical-align: top;
     padding: 15px;
-    font-size: 2.8vh;
+    font-size: 2vh;
 }
 
 .header {
@@ -29,7 +29,7 @@ img {
     background: #ff083e;
     color: white;
     padding: 15px 30px 15px 15px;
-    font-size: 1.7vw;
+    font-size: 2.2vw;
 }
 
 .footer {
