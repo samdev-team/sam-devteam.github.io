@@ -1,3 +1,4 @@
-# SAM Development Team github.io website
-Amongasideshehehgpg?
+# SAM-Devteam github.io
+
+The css is really bad.
 
